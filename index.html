@@ -99,30 +99,111 @@
       </div>
     </section>
 
-    <section class="section projects-section" id="projects">
-      <div class="container">
-        <div class="section-head"><div><div class="section-kicker">02 / SELECTED WORK</div><h2>Projects with a <span class="gradient-text">purpose.</span></h2></div><p>A selection of analytics work and projects in progress. Add your repository and dashboard links before publishing.</p></div>
-        <div class="project-grid">
-          <article class="project-card project-featured">
-            <div class="project-art art-sales"><div class="art-label">BUSINESS INTELLIGENCE</div><div class="mock-dashboard"><div class="mock-top"><span>Sales overview</span><span>↗</span></div><div class="mock-kpis"><div><small>SALES</small><b>₹ —</b></div><div><small>PROFIT</small><b>₹ —</b></div><div><small>ORDERS</small><b>—</b></div></div><div class="mock-chart"><i style="--h:30%"></i><i style="--h:44%"></i><i style="--h:38%"></i><i style="--h:66%"></i><i style="--h:53%"></i><i style="--h:76%"></i><i style="--h:88%"></i></div></div></div>
-            <div class="project-body"><div class="project-type">01 — POWER BI / DATA VISUALIZATION</div><h3>Sales & Profit Analysis Dashboard</h3><p>Built a business dashboard to explore sales and profit performance, with a focus on clear KPI presentation and useful comparisons.</p><div class="tech-tags"><span>Power BI</span><span>Data cleaning</span><span>Dashboard design</span></div><div class="project-links"><a href="#contact">Add dashboard link <span>↗</span></a><a href="#contact">Add case study <span>↗</span></a></div></div>
-          </article>
-          <article class="project-card">
-            <div class="project-art art-segments"><div class="art-label">CUSTOMER INSIGHTS</div><div class="segment-orbit"><span class="orb orb-a"></span><span class="orb orb-b"></span><span class="orb orb-c"></span><span class="orb orb-d"></span><div class="orbit-center">SEG<br>MENTS</div></div></div>
-            <div class="project-body"><div class="project-type">02 — ANALYTICS / SEGMENTATION</div><h3>Customer Segmentation</h3><p>Explored customer data to identify groups with similar characteristics and support more focused business decisions.</p><div class="tech-tags"><span>Python</span><span>EDA</span><span>Clustering*</span></div><div class="project-links"><a href="#contact">Add GitHub link <span>↗</span></a></div></div>
-          </article>
-          <article class="project-card">
-            <div class="project-art art-ipl"><div class="art-label">SPORTS ANALYTICS</div><div class="score-card"><div class="score-label">IPL PERFORMANCE LAB</div><div class="score-numbers"><span>BAT</span><span class="score-x">×</span><span>BOWL</span></div><div class="score-rule"></div><div class="score-bars"><i style="--h:60%"></i><i style="--h:85%"></i><i style="--h:45%"></i><i style="--h:70%"></i><i style="--h:95%"></i></div><small>PLAYER & TEAM TRENDS</small></div></div>
-            <div class="project-body"><div class="project-type">03 — SPORTS / PERFORMANCE ANALYTICS</div><h3>IPL Player & Team Analytics</h3><p>Project in progress: analyzing player and team performance to discover trends and present findings through visual storytelling.</p><div class="tech-tags"><span>SQL</span><span>Power BI</span><span>Python*</span></div><div class="project-links"><a href="#contact">Add project repository <span>↗</span></a></div></div>
-          </article>
-          <article class="project-card">
-            <div class="project-art art-sql"><div class="art-label">QUERY / EXPLORE / EXPLAIN</div><div class="code-window"><div class="code-dots"><i></i><i></i><i></i></div><code><span>SELECT</span> department,<br>&nbsp;&nbsp;<em>AVG</em>(salary) AS avg_salary<br><span>FROM</span> employees<br><span>GROUP BY</span> department<br><span>ORDER BY</span> avg_salary DESC;</code></div></div>
-            <div class="project-body"><div class="project-type">04 — SQL / DATA ANALYSIS</div><h3>SQL Practice & Analysis</h3><p>A growing collection of SQL exercises covering joins, aggregation, subqueries, CTEs, and window functions.</p><div class="tech-tags"><span>SQL</span><span>CTEs</span><span>Window functions</span></div><div class="project-links"><a href="#contact">Add GitHub link <span>↗</span></a></div></div>
-          </article>
+    
+<section id="projects" class="projects-section">
+    <div class="section-container">
+
+        <div class="section-heading">
+            <div class="section-label">MY WORK</div>
+            <h2>Projects</h2>
+            <p>Practical projects showcasing my skills in Data Analytics, Business Intelligence and Python.</p>
         </div>
-        <p class="fine-print">*Keep only the tools and methods you actually used in each project. Replace placeholder links and add verified results before publishing.</p>
-      </div>
-    </section>
+
+        <div class="project-grid">
+
+            
+<!-- PROJECT 1: COMPLETED SALES DASHBOARD -->
+<article class="project-card project-featured">
+
+    <div class="project-art project-art-sales">
+        <div class="art-label">BUSINESS INTELLIGENCE</div>
+        <div class="mock-dashboard">
+            <div class="mock-top"></div>
+        </div>
+    </div>
+
+    <div class="project-body">
+
+        <div class="project-type">01 — EXCEL / POWER BI</div>
+
+        <h3>Sales &amp; Profit Analysis Dashboard</h3>
+
+        <p>
+            An interactive sales and profit analysis dashboard
+            built using Microsoft Power BI to explore sales
+            performance, profitability, orders, products,
+            categories, states and sales channels.
+        </p>
+
+        <p><strong>Status:</strong> Completed</p>
+
+        <p><strong>Tools:</strong> Excel, Power BI, DAX</p>
+
+        <a href="https://github.com/ommahajan2004/power-bi-sales-dashboard"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="project-link">
+            View Project on GitHub →
+        </a>
+
+    </div>
+</article>
+
+
+
+            <!-- PROJECT 2: DATA CLEANER AGENT -->
+            <article class="project-card">
+                <div class="project-art project-art-sql">
+                    <div class="art-label">DATA PREPROCESSING</div>
+                </div>
+
+                <div class="project-body">
+                    <div class="project-type">02 — PYTHON / DATA CLEANING</div>
+
+                    <h3>Data Cleaner Agent</h3>
+
+                    <p>
+                        A planned Python application for cleaning and
+                        preprocessing raw datasets using Pandas, NumPy
+                        and Streamlit.
+                    </p>
+
+                    <p><strong>Status:</strong> Coming Soon</p>
+
+                    <p><strong>Tools:</strong> Python, Pandas, NumPy, Streamlit</p>
+                </div>
+            </article>
+
+
+            <!-- PROJECT 3: SQL QUERY HELPER -->
+            <article class="project-card">
+                <div class="project-art project-art-sql">
+                    <div class="art-label">NATURAL LANGUAGE TO SQL</div>
+                </div>
+
+                <div class="project-body">
+                    <div class="project-type">03 — PYTHON / SQL / AI</div>
+
+                    <h3>SQL Query Helper</h3>
+
+                    <p>
+                        A planned AI-powered assistant to translate
+                        natural-language business questions into SQL queries.
+                    </p>
+
+                    <p><strong>Status:</strong> Coming Soon</p>
+
+                    <p>
+                        <strong>Tools:</strong> Python, MySQL, Streamlit,
+                        LangChain, OpenAI API
+                    </p>
+                </div>
+            </article>
+
+        </div>
+    </div>
+</section>
+
 
 
 <section class="section container" id="skills">
