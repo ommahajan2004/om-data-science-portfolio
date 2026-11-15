@@ -8,3 +8,28 @@
 .contact-section{padding:105px 0;background:radial-gradient(ellipse at 50% 100%,rgba(46,94,122,.2),transparent 60%);border-bottom:1px solid var(--line)}.contact-inner{text-align:center}.contact-inner .section-kicker{margin-bottom:23px}.contact-inner h2{font-size:clamp(42px,6vw,65px)}.contact-inner>p:not(.contact-note){max-width:540px;margin:22px auto 0;color:var(--muted);font-size:13px;line-height:1.9}.contact-actions{justify-content:center}.contact-note{font-size:10px;color:#6f7c8f;margin-top:20px}.footer{padding:23px 0}.footer-inner{display:flex;align-items:center;justify-content:space-between;gap:20px}.footer-inner>span,.footer-inner>a:last-child{font-size:10px;color:#8592a5}
 @media(max-width:800px){.hero{grid-template-columns:1fr;gap:45px;padding-top:75px}.hero-visual{max-width:520px;width:100%;margin:auto}.hero-scroll{display:none}.section-grid{gap:35px}.section-head{align-items:start;flex-direction:column;gap:16px}.skills-layout{grid-template-columns:1fr 1fr}.timeline-item{grid-template-columns:155px 1fr;gap:22px}}
 @media(max-width:560px){.container{width:min(100% - 32px,1120px)}.nav{height:68px}.menu-toggle{display:block}.nav-links{display:none;position:absolute;left:16px;right:16px;top:62px;padding:18px;background:#101722;border:1px solid var(--line);border-radius:12px;flex-direction:column;align-items:stretch;gap:0}.nav-links.open{display:flex}.nav-links a{padding:12px}.nav-contact{margin-top:5px;text-align:center}.hero{padding-top:60px;padding-bottom:65px;min-height:auto}h1{font-size:48px}.hero-sub{font-size:13px}.hero-meta{flex-wrap:wrap;line-height:1.8}.hero-visual{padding:20px;min-height:355px}.float-card{right:-6px;bottom:34px}.section{padding-top:75px;padding-bottom:75px}.section-grid{grid-template-columns:1fr;gap:25px}.project-grid{grid-template-columns:1fr}.project-art{height:200px}.project-body p{min-height:auto}.skills-layout{grid-template-columns:1fr}.skill-group>p{min-height:auto}.timeline-item{grid-template-columns:1fr;gap:12px;padding:23px 0}.timeline-date{font-size:9px}.timeline-top{flex-direction:column;gap:8px}.contact-section{padding:75px 0}.footer-inner{flex-wrap:wrap}.footer-inner>span{order:3;width:100%}.ticker-track{gap:23px}.ticker-track span{font-size:9px}}
+
+
+
+/* GitHub project link */
+.project-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 12px;
+    padding: 10px 16px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.06);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.project-link:hover {
+    background: #ffffff;
+    color: #111111;
+    transform: translateY(-2px);
+}
