@@ -77,3 +77,52 @@
     background-repeat: no-repeat;
     background-size: contain;
 }
+/* Restore styled buttons for project links */
+.project-links a {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 16px;
+    border: 1px solid rgba(101, 230, 211, 0.35);
+    border-radius: 8px;
+    color: var(--cyan);
+    background: rgba(101, 230, 211, 0.06);
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: 800;
+    transition: all 0.3s ease;
+}
+
+.project-links a:hover {
+    background: var(--cyan);
+    color: #071013;
+    transform: translateY(-2px);
+}
+
+/* =========================================
+   WHITE PROJECT BUTTONS
+========================================= */
+
+.project-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 11px 18px;
+    background: #ffffff;
+    color: #111827;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+    transition: all 0.3s ease;
+}
+
+.project-link:hover {
+    background: transparent;
+    color: #ffffff;
+    border-color: #ffffff;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.15);
+}
